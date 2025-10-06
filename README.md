@@ -1,5 +1,7 @@
 # Project ML Portfolio — CNN, GANs, RAGs, LSTM, Transformers
-## Este repositorio contiene el proyecto final del curso **IA Avanzada: Deep Learning **.
+
+
+## Este repositorio contiene el proyecto final del curso IA Avanzada: Deep Learning.
 ## Integra implementaciones de **CNN**, **GAN**, **RAG**, **LSTM** y **Transformers**, incluyendo entrenamiento, evaluación y visualización de resultados.
 
 
@@ -23,6 +25,7 @@ project-ml-portfolio/
 │  └─ 5_transformer_finetune.ipynb
 ├─ src/
 │  ├─ data.py
+│  ├─ metrics.py
 │  ├─ models.py
 │  ├─ train.py
 │  └─ utils.py
@@ -30,8 +33,6 @@ project-ml-portfolio/
 ├─ docs/
 │  └─ report.md
 ├─ results/
-├─ presentation/
-└─ assets/
 ```
 
 ## Reproducibilidad
