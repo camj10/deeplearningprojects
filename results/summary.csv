@@ -1,0 +1,5 @@
+timestamp,module,model,dataset,accuracy,f1,loss,epochs,params,train_time_s,notes
+2025-10-05 18:04:57,cnn,SimpleCNN,CIFAR-10,0.7054,0.7075667995688623,0.8304487466812134,15,111050,1.79,baseline
+2025-10-05 18:46:34,gan,DCGAN,CIFAR-10,,,,5,,,FID=345.02071782692576
+2025-10-05 19:50:24,transformer,BiLSTM-embed (baseline),IMDB (Keras),0.85536,0.8472327841149134,,3,2700097,,Modelo baseline (Keras + BiLSTM)
+2025-10-05 21:46:36,cnn,SimpleCNN,CIFAR-10,0.7054,0.7075667995688623,0.8304487466812134,15,111050,2.73,baseline

@@ -1,0 +1,104 @@
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+pip-wheel-metadata/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Archivos temporales de Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+*.nbconvert.ipynb
+
+# === Archivos de sistema / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Modelos entrenados / pesos ===
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# === Datos grandes o intermedios ===
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.tar
+*.gz
+*.npy
+*.npz
+*.pkl
+*.txt
+*.jsonl
+*.json
+
+
+# === Salidas / resultados intermedios ===
+results/*.png
+results/*.jpg
+results/*.jpeg
+results/*.gif
+results/*.mp4
+results/*.avi
+results/*.mat
+results/*.pdf
+results/*.npy
+results/*.npz
+
+# === Logs y tracking ===
+wandb/
+mlruns/
+*.log
+*.out
+
+# === Archivos de instalación ===
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# === Documentos temporales ===
+*.tmp
+*.bak
+*.old
+
+# === Checkpoints de entrenamiento ===
+checkpoints/
+models/
+outputs/
+
+# === Archivos comprimidos ===
+*.7z
+*.gz
+*.tar
+*.zip
+
+# === Otros ===
+# Archivo temporal de TensorBoard
+.tensorboard-info/
+
+# === No ignorar archivos importantes ===
+!requirements.txt
+!README.md
+!docs/
+!notebooks/
+!src/
+!presentation/
+!summary.csv
